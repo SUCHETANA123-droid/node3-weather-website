@@ -54,7 +54,7 @@ app.get("/about",(req,res)=>{
 
 app.get('/help',(req,res)=>{
   res.render('help',{
-    helpText:"Help",
+    helpText:"How Can I help You !",
     title:'Help You',
     name:'Suchetana Sarkar'
 

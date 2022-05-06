@@ -9,7 +9,7 @@ const forcast=(lattitude,longitude,callback)=>{
       callback("Argument wrong",undefined)
     }
     else{
-     callback(undefined,body.current.weather_descriptions[0]+" It is currently " +body.current.temperature +" degree out.There is a "+ body.current.feelslike+"% chance of rain")
+     callback(undefined,body.current.weather_descriptions[0]+" It is currently " +body.current.temperature +" degree out.There is a "+ body.current.feelslike+"% chance of rain"+"and the Cloud Cover is"+body.current.cloudcover)
     }
 
 
